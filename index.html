@@ -221,7 +221,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 19-03-2026 05:29:14</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 19-03-2026 06:12:25</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -318,48 +318,48 @@
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td>Mar 19, 2026 05:29:02</td>
+                    <td>Mar 19, 2026 06:12:07</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stop-circle"></i> Tests
                         Finished
                     </td>
-                    <td>Mar 19, 2026 05:29:11</td>
+                    <td>Mar 19, 2026 06:12:22</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch"></i> Total
                         Duration
                     </td>
-                    <td>8s</td>
+                    <td>15s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-trophy"></i> Fastest Test
                     </td>
-                    <td>5ms</td>
+                    <td>6ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-skip-start"></i> Slowest
                         Test
                     </td>
-                    <td>3s</td>
+                    <td>8s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
                     </td>
-                    <td>555ms</td>
+                    <td>945ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch-fill"></i> Total
                         Execution Time
                     </td>
-                    <td>8s</td>
+                    <td>15s</td>
                 </tr>
                 </tbody>
             </table>
@@ -397,163 +397,163 @@
                                                                                     <td>1: Identify the current temperature for all Australian capital cities ({city=Sydney})
 Given I have a weather API endpoint
 When I analyze weather for city "Sydney" and country is "AU"
-Requesting current weather for City: Sydney, AU
+Requesting weather for city : Sydney,AU
 GET https://api.weatherbit.io/v2.0/current?city=Sydney&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Sydney"
 2: Identify the current temperature for all Australian capital cities ({city=Melbourne})
 Given I have a weather API endpoint
 When I analyze weather for city "Melbourne" and country is "AU"
-Requesting current weather for City: Melbourne, AU
+Requesting weather for city : Melbourne,AU
 GET https://api.weatherbit.io/v2.0/current?city=Melbourne&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Melbourne"
 3: Identify the current temperature for all Australian capital cities ({city=Brisbane})
 Given I have a weather API endpoint
 When I analyze weather for city "Brisbane" and country is "AU"
-Requesting current weather for City: Brisbane, AU
+Requesting weather for city : Brisbane,AU
 GET https://api.weatherbit.io/v2.0/current?city=Brisbane&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Brisbane"
 4: Identify the current temperature for all Australian capital cities ({city=Perth})
 Given I have a weather API endpoint
 When I analyze weather for city "Perth" and country is "AU"
-Requesting current weather for City: Perth, AU
+Requesting weather for city : Perth,AU
 GET https://api.weatherbit.io/v2.0/current?city=Perth&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Perth"
 5: Identify the current temperature for all Australian capital cities ({city=Adelaide})
 Given I have a weather API endpoint
 When I analyze weather for city "Adelaide" and country is "AU"
-Requesting current weather for City: Adelaide, AU
+Requesting weather for city : Adelaide,AU
 GET https://api.weatherbit.io/v2.0/current?city=Adelaide&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Adelaide"
 6: Identify the current temperature for all Australian capital cities ({city=Hobart})
 Given I have a weather API endpoint
 When I analyze weather for city "Hobart" and country is "AU"
-Requesting current weather for City: Hobart, AU
+Requesting weather for city : Hobart,AU
 GET https://api.weatherbit.io/v2.0/current?city=Hobart&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Hobart"
 7: Identify the current temperature for all Australian capital cities ({city=Canberra})
 Given I have a weather API endpoint
 When I analyze weather for city "Canberra" and country is "AU"
-Requesting current weather for City: Canberra, AU
+Requesting weather for city : Canberra,AU
 GET https://api.weatherbit.io/v2.0/current?city=Canberra&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Canberra"
 8: Identify the current temperature for all Australian capital cities ({city=Darwin})
 Given I have a weather API endpoint
 When I analyze weather for city "Darwin" and country is "AU"
-Requesting current weather for City: Darwin, AU
+Requesting weather for city : Darwin,AU
 GET https://api.weatherbit.io/v2.0/current?city=Darwin&country=AU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then the response status code should be 200
 And I record the temperature for "Darwin"
 Then I identify the warmest capital city
 Given I have a weather API endpoint
 Then I identify the coldest US state from "states.csv"
-Requesting current weather for City: Alaska, US
+Requesting weather for city : Alaska,US
 GET https://api.weatherbit.io/v2.0/current?city=Alaska&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Alabama, US
+Requesting weather for city : Alabama,US
 GET https://api.weatherbit.io/v2.0/current?city=Alabama&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Arkansas, US
+Requesting weather for city : Arkansas,US
 GET https://api.weatherbit.io/v2.0/current?city=Arkansas&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Arizona, US
+Requesting weather for city : Arizona,US
 GET https://api.weatherbit.io/v2.0/current?city=Arizona&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: California, US
+Requesting weather for city : California,US
 GET https://api.weatherbit.io/v2.0/current?city=California&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Colorado, US
+Requesting weather for city : Colorado,US
 GET https://api.weatherbit.io/v2.0/current?city=Colorado&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Connecticut, US
+Requesting weather for city : Connecticut,US
 GET https://api.weatherbit.io/v2.0/current?city=Connecticut&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: District of Columbia, US
+Requesting weather for city : District of Columbia,US
 GET https://api.weatherbit.io/v2.0/current?city=District%20of%20Columbia&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Delaware, US
+Requesting weather for city : Delaware,US
 GET https://api.weatherbit.io/v2.0/current?city=Delaware&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Florida, US
+Requesting weather for city : Florida,US
 GET https://api.weatherbit.io/v2.0/current?city=Florida&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Georgia, US
+Requesting weather for city : Georgia,US
 GET https://api.weatherbit.io/v2.0/current?city=Georgia&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Hawaii, US
+Requesting weather for city : Hawaii,US
 GET https://api.weatherbit.io/v2.0/current?city=Hawaii&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Iowa, US
+Requesting weather for city : Iowa,US
 GET https://api.weatherbit.io/v2.0/current?city=Iowa&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Idaho, US
+Requesting weather for city : Idaho,US
 GET https://api.weatherbit.io/v2.0/current?city=Idaho&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Illinois, US
+Requesting weather for city : Illinois,US
 GET https://api.weatherbit.io/v2.0/current?city=Illinois&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Indiana, US
+Requesting weather for city : Indiana,US
 GET https://api.weatherbit.io/v2.0/current?city=Indiana&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Kansas, US
+Requesting weather for city : Kansas,US
 GET https://api.weatherbit.io/v2.0/current?city=Kansas&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Kentucky, US
+Requesting weather for city : Kentucky,US
 GET https://api.weatherbit.io/v2.0/current?city=Kentucky&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Louisiana, US
+Requesting weather for city : Louisiana,US
 GET https://api.weatherbit.io/v2.0/current?city=Louisiana&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Massachusetts, US
+Requesting weather for city : Massachusetts,US
 GET https://api.weatherbit.io/v2.0/current?city=Massachusetts&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Maryland, US
+Requesting weather for city : Maryland,US
 GET https://api.weatherbit.io/v2.0/current?city=Maryland&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Maine, US
+Requesting weather for city : Maine,US
 GET https://api.weatherbit.io/v2.0/current?city=Maine&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Michigan, US
+Requesting weather for city : Michigan,US
 GET https://api.weatherbit.io/v2.0/current?city=Michigan&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Minnesota, US
+Requesting weather for city : Minnesota,US
 GET https://api.weatherbit.io/v2.0/current?city=Minnesota&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Missouri, US
+Requesting weather for city : Missouri,US
 GET https://api.weatherbit.io/v2.0/current?city=Missouri&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Mississippi, US
+Requesting weather for city : Mississippi,US
 GET https://api.weatherbit.io/v2.0/current?city=Mississippi&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Montana, US
+Requesting weather for city : Montana,US
 GET https://api.weatherbit.io/v2.0/current?city=Montana&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: North Carolina, US
+Requesting weather for city : North Carolina,US
 GET https://api.weatherbit.io/v2.0/current?city=North%20Carolina&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: North Dakota, US
+Requesting weather for city : North Dakota,US
 GET https://api.weatherbit.io/v2.0/current?city=North%20Dakota&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Nebraska, US
+Requesting weather for city : Nebraska,US
 GET https://api.weatherbit.io/v2.0/current?city=Nebraska&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: New Hampshire, US
+Requesting weather for city : New Hampshire,US
 GET https://api.weatherbit.io/v2.0/current?city=New%20Hampshire&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: New Jersey, US
+Requesting weather for city : New Jersey,US
 GET https://api.weatherbit.io/v2.0/current?city=New%20Jersey&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: New Mexico, US
+Requesting weather for city : New Mexico,US
 GET https://api.weatherbit.io/v2.0/current?city=New%20Mexico&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Nevada, US
+Requesting weather for city : Nevada,US
 GET https://api.weatherbit.io/v2.0/current?city=Nevada&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: New York, US
+Requesting weather for city : New York,US
 GET https://api.weatherbit.io/v2.0/current?city=New%20York&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Ohio, US
+Requesting weather for city : Ohio,US
 GET https://api.weatherbit.io/v2.0/current?city=Ohio&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Oklahoma, US
+Requesting weather for city : Oklahoma,US
 GET https://api.weatherbit.io/v2.0/current?city=Oklahoma&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Oregon, US
+Requesting weather for city : Oregon,US
 GET https://api.weatherbit.io/v2.0/current?city=Oregon&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Pennsylvania, US
+Requesting weather for city : Pennsylvania,US
 GET https://api.weatherbit.io/v2.0/current?city=Pennsylvania&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Rhode Island, US
+Requesting weather for city : Rhode Island,US
 GET https://api.weatherbit.io/v2.0/current?city=Rhode%20Island&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: South Carolina, US
+Requesting weather for city : South Carolina,US
 GET https://api.weatherbit.io/v2.0/current?city=South%20Carolina&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: South Dakota, US
+Requesting weather for city : South Dakota,US
 GET https://api.weatherbit.io/v2.0/current?city=South%20Dakota&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Tennessee, US
+Requesting weather for city : Tennessee,US
 GET https://api.weatherbit.io/v2.0/current?city=Tennessee&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Texas, US
+Requesting weather for city : Texas,US
 GET https://api.weatherbit.io/v2.0/current?city=Texas&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Utah, US
+Requesting weather for city : Utah,US
 GET https://api.weatherbit.io/v2.0/current?city=Utah&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Virginia, US
+Requesting weather for city : Virginia,US
 GET https://api.weatherbit.io/v2.0/current?city=Virginia&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Vermont, US
+Requesting weather for city : Vermont,US
 GET https://api.weatherbit.io/v2.0/current?city=Vermont&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Washington, US
+Requesting weather for city : Washington,US
 GET https://api.weatherbit.io/v2.0/current?city=Washington&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Wisconsin, US
+Requesting weather for city : Wisconsin,US
 GET https://api.weatherbit.io/v2.0/current?city=Wisconsin&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: West Virginia, US
+Requesting weather for city : West Virginia,US
 GET https://api.weatherbit.io/v2.0/current?city=West%20Virginia&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
-Requesting current weather for City: Wyoming, US
+Requesting weather for city : Wyoming,US
 GET https://api.weatherbit.io/v2.0/current?city=Wyoming&country=US&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 </td>
                                                                                     <td>10</td>
@@ -581,41 +581,35 @@ GET https://api.weatherbit.io/v2.0/current?city=Wyoming&country=US&key=1d2fa3bc2
                                                                                     <td>2</td>
                                                                                     <td>Given the weather API endpoint is set
 When I request weather for Latitude "-33.865143" and Longitude "151.209900"
-Requesting weather by Coordinates: Lat 1d2fa3bc2fc94cd8a0e0744e4ab7f723, Lon -33.865143
 GET https://api.weatherbit.io/v2.0/current?lat=-33.865143&lon=151.209900&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then I should get a valid response data
 1: Verify weather data for major international cities ({city=London, country=UK})
 Given the weather API endpoint is set
 When I request weather for city "London" and country "UK"
-Requesting weather by City: 1d2fa3bc2fc94cd8a0e0744e4ab7f723, London
 GET https://api.weatherbit.io/v2.0/current?city=London%2CUK&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then I should get a valid response status code
 And the response should contain the city name "London"
 2: Verify weather data for major international cities ({city=Tokyo, country=JP})
 Given the weather API endpoint is set
 When I request weather for city "Tokyo" and country "JP"
-Requesting weather by City: 1d2fa3bc2fc94cd8a0e0744e4ab7f723, Tokyo
 GET https://api.weatherbit.io/v2.0/current?city=Tokyo%2CJP&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then I should get a valid response status code
 And the response should contain the city name "Tokyo"
 3: Verify weather data for major international cities ({city=New York, country=US})
 Given the weather API endpoint is set
 When I request weather for city "New York" and country "US"
-Requesting weather by City: 1d2fa3bc2fc94cd8a0e0744e4ab7f723, New York
 GET https://api.weatherbit.io/v2.0/current?city=New%20York%2CUS&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then I should get a valid response status code
 And the response should contain the city name "New York"
 4: Verify weather data for major international cities ({city=Paris, country=FR})
 Given the weather API endpoint is set
 When I request weather for city "Paris" and country "FR"
-Requesting weather by City: 1d2fa3bc2fc94cd8a0e0744e4ab7f723, Paris
 GET https://api.weatherbit.io/v2.0/current?city=Paris%2CFR&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then I should get a valid response status code
 And the response should contain the city name "Paris"
 5: Verify weather data for major international cities ({city=Sydney, country=AU})
 Given the weather API endpoint is set
 When I request weather for city "Sydney" and country "AU"
-Requesting weather by City: 1d2fa3bc2fc94cd8a0e0744e4ab7f723, Sydney
 GET https://api.weatherbit.io/v2.0/current?city=Sydney%2CAU&key=1d2fa3bc2fc94cd8a0e0744e4ab7f723
 Then I should get a valid response status code
 And the response should contain the city name "Sydney"
@@ -665,7 +659,7 @@ And the response should contain the city name "Sydney"
                         <i class="bi bi-stopwatch"></i> Total
                         Duration
                     </td>
-                    <td>8s</td>
+                    <td>15s</td>
                 </tr>
                 <tr scope="row">
                     <td>
@@ -675,7 +669,7 @@ And the response should contain the city name "Sydney"
                     <td>
                         <i class="bi bi-trophy"></i> Fastest Test
                     </td>
-                    <td>5ms</td>
+                    <td>6ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
@@ -686,30 +680,30 @@ And the response should contain the city name "Sydney"
                         <i class="bi bi-skip-start"></i> Slowest
                         Test
                     </td>
-                    <td>3s</td>
+                    <td>8s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td>Mar 19, 2026 05:29:02</td>
+                    <td>Mar 19, 2026 06:12:07</td>
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
                     </td>
-                    <td>555ms</td>
+                    <td>945ms</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stop-circle"></i> Tests
                         Finished
                     </td>
-                    <td>Mar 19, 2026 05:29:11</td>
+                    <td>Mar 19, 2026 06:12:22</td>
                     <td>
                         <i class="bi bi-stopwatch-fill"></i> Total
                         Execution Time
                     </td>
-                    <td>8s</td>
+                    <td>15s</td>
                 </tr>
                 </tbody>
             </table>
@@ -752,8 +746,8 @@ When I analyze weather for city &quot;&lt;city&gt;&quot; and country is &quot;AU
 Then the response status code should be 200
 And I record the temperature for &quot;&lt;city&gt;&quot;
 </td>
-                                                                        <td data-order="1773898142">05:29:02</td>
-                                                                        <td>4s 555ms</td>
+                                                                        <td data-order="1773900727">06:12:07</td>
+                                                                        <td>5s 417ms</td>
                                                                         <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
@@ -770,8 +764,8 @@ And I record the temperature for &quot;&lt;city&gt;&quot;
                                                                         <td>1</td>
                                                                         <td>Then I identify the warmest capital city
 </td>
-                                                                        <td data-order="1773898147">05:29:07</td>
-                                                                        <td>005ms</td>
+                                                                        <td data-order="1773900733">06:12:13</td>
+                                                                        <td>006ms</td>
                                                                         <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
@@ -789,8 +783,8 @@ And I record the temperature for &quot;&lt;city&gt;&quot;
                                                                         <td>Given I have a weather API endpoint
 Then I identify the coldest US state from &quot;states.csv&quot;
 </td>
-                                                                        <td data-order="1773898147">05:29:07</td>
-                                                                        <td>3s 797ms</td>
+                                                                        <td data-order="1773900733">06:12:13</td>
+                                                                        <td>8s 794ms</td>
                                                                         <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
@@ -809,8 +803,8 @@ Then I identify the coldest US state from &quot;states.csv&quot;
 When I request weather for Latitude &quot;-33.865143&quot; and Longitude &quot;151.209900&quot;
 Then I should get a valid response data
 </td>
-                                                                        <td data-order="1773898150">05:29:10</td>
-                                                                        <td>123ms</td>
+                                                                        <td data-order="1773900741">06:12:21</td>
+                                                                        <td>173ms</td>
                                                                         <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
@@ -835,8 +829,8 @@ When I request weather for city &quot;&lt;city&gt;&quot; and country &quot;&lt;c
 Then I should get a valid response status code
 And the response should contain the city name &quot;&lt;city&gt;&quot;
 </td>
-                                                                        <td data-order="1773898151">05:29:11</td>
-                                                                        <td>457ms</td>
+                                                                        <td data-order="1773900742">06:12:22</td>
+                                                                        <td>787ms</td>
                                                                         <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
