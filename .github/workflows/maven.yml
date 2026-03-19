@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout Code
+      uses: actions/checkout@v4
     
     - name: Set up JDK 21
       uses: actions/setup-java@v4
@@ -21,10 +22,9 @@ jobs:
         cache: maven
 
     - name: Build and Run Tests
-	  run: mvn -B clean verify -Dweather.api.key=${{ secrets.WEATHER_API_KEY }}
-	  env:
-	    # This maps the GitHub Secret to an environment variable the runner can see
-		WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
+      run: mvn -B clean verify -Dweather.api.key='${{ secrets.WEATHER_API_KEY }}'
+      env:
+        WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
 
     - name: Upload Serenity Report
       uses: actions/upload-artifact@v4
