@@ -6,7 +6,7 @@ import net.serenitybdd.rest.SerenityRest;
 
 public class WeatherAnalysisActions {
 	
-	@Step("Requesting current weather for City: {1}, {2}")
+	@Step("Requesting weather for city : {1},{2}")
     public void getWeatherByCity(String url, String city, String country, String apikey) {
         
         if (city == null || city.isBlank()) {
